@@ -1367,10 +1367,13 @@ hr {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #4d96a7;
+  /* background-color: #4d96a7; */
   padding: 15px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 1000;
+
+  background-color: #ffffff5d;
+  backdrop-filter: blur(12px);
 }
 
 .navbar ul {
@@ -1388,14 +1391,15 @@ hr {
 
 .navbar ul li a {
   text-decoration: none;
-  color: white;
+  color: #2f3c4f;
   font-size: 18px;
   padding: 10px 15px;
 }
 
 .navbar ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #38b5dea8;
   border-radius: 5px;
+  color: #ffffff;
 }
 
 /* Medium screens (tablets) */
@@ -1409,15 +1413,23 @@ hr {
 /* Small screens (phones) */
 @media (max-width: 576px) {
   .navbar ul li a {
-    font-size: 10px;
+    font-size: 14px;
     padding: 6px 10px;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 432px) {
+  .navbar ul li a {
+    font-size: 12px;
+    padding: 4px 8px;
   }
 }
 
 /* Small screens (phones) */
 @media (max-width: 360px) {
   .navbar ul li a {
-    font-size: 8px;
-    padding: 4px 8px;
+    font-size: 10px;
+    padding: 2px 3px;
   }
 }

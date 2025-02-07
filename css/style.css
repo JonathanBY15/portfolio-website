@@ -241,25 +241,25 @@ figure {
   font-size: 30px;
 }
 
-#fh5co-features {
+#skills {
   background: rgb(44, 182, 216);
 }
-#fh5co-features h2 {
+#skills h2 {
   color: #fff;
 }
-#fh5co-features .services-padding {
+#skills .services-padding {
   padding: 7em 0;
 }
-#fh5co-features .feature-left {
+#skills .feature-left {
   margin-bottom: 40px;
   float: left;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-features .feature-left {
+  #skills .feature-left {
     margin-bottom: 30px;
   }
 }
-#fh5co-features .feature-left .icon {
+#skills .feature-left .icon {
   display: table;
   text-align: center;
   width: 100px;
@@ -272,50 +272,50 @@ figure {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#fh5co-features .feature-left .icon i {
+#skills .feature-left .icon i {
   font-size: 50px;
   display: table-cell;
   vertical-align: middle;
   height: 100px;
   color: rgb(44, 182, 216) !important;
 }
-#fh5co-features .feature-left .feature-copy {
+#skills .feature-left .feature-copy {
   width: 100%;
 }
-#fh5co-features .feature-left h3 {
+#skills .feature-left h3 {
   font-size: 24px;
   font-weight: 400;
   color: #fff;
 }
-#fh5co-features .feature-left p {
+#skills .feature-left p {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-features .feature-left p:last-child {
+#skills .feature-left p:last-child {
   margin-bottom: 0;
 }
-#fh5co-features .feature-left p a {
+#skills .feature-left p a {
   color: #000 !important;
 }
 
-#fh5co-about,
-#fh5co-resume,
+#about,
+#resume,
 #fh5co-skills,
 #fh5co-started,
 #fh5co-work,
-#fh5co-blog,
+#projects,
 #fh5co-pricing,
 #fh5co-contact {
   padding: 7em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-about,
-  #fh5co-resume,
+  #about,
+  #resume,
   #fh5co-skills,
   #fh5co-started,
   #fh5co-work,
-  #fh5co-blog,
+  #projects,
   #fh5co-pricing,
   #fh5co-contact {
     padding: 3em 0;
@@ -393,11 +393,11 @@ figure {
   font-size: 20px;
 }
 
-#fh5co-about .fh5co-social-icons {
+#about .fh5co-social-icons {
   margin: 0;
   padding: 0;
 }
-#fh5co-about .fh5co-social-icons li {
+#about .fh5co-social-icons li {
   padding: 0;
   list-style: none;
   display: -moz-inline-stack;
@@ -405,7 +405,7 @@ figure {
   zoom: 1;
   *display: inline;
 }
-#fh5co-about .fh5co-social-icons li a {
+#about .fh5co-social-icons li a {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -418,10 +418,10 @@ figure {
   -ms-border-radius: 2px;
   border-radius: 2px;
 }
-#fh5co-about .fh5co-social-icons li a i {
+#about .fh5co-social-icons li a i {
   font-size: 20px;
 }
-#fh5co-about .fh5co-social-icons li a:hover {
+#about .fh5co-social-icons li a:hover {
   background: rgb(44, 182, 216);
 }
 
@@ -830,17 +830,17 @@ figure {
   padding-right: 50px;
 }
 
-.fh5co-blog {
+.projects {
   width: 100%;
   float: left;
   margin-bottom: 40px;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-blog {
+  .projects {
     width: 100%;
   }
 }
-.fh5co-blog .blog-bg {
+.projects .blog-bg {
   display: block;
   width: 100%;
   background-size: cover;
@@ -850,16 +850,16 @@ figure {
   height: 300px;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-blog .blog-bg {
+  .projects .blog-bg {
     height: 400px;
   }
 }
 @media screen and (max-width: 480px) {
-  .fh5co-blog .blog-bg {
+  .projects .blog-bg {
     height: 270px;
   }
 }
-.fh5co-blog .blog-text {
+.projects .blog-text {
   margin-bottom: 30px;
   position: relative;
   width: 100%;
@@ -874,55 +874,55 @@ figure {
   transition: 0.3s;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-blog .blog-text {
+  .projects .blog-text {
     padding: 10px;
   }
 }
-.fh5co-blog .blog-text span {
+.projects .blog-text span {
   display: inline-block;
   margin-bottom: 20px;
   font-size: 18px !important;
   color: rgba(0, 0, 0, 0.3);
 }
-.fh5co-blog .blog-text .stuff {
+.projects .blog-text .stuff {
   margin: 0;
   padding: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   padding-top: 20px;
 }
-.fh5co-blog .blog-text .stuff li {
+.projects .blog-text .stuff li {
   list-style: none;
   display: inline-block;
   margin-left: 10px;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-blog .blog-text .stuff li {
+  .projects .blog-text .stuff li {
     font-size: 14px;
   }
 }
-.fh5co-blog .blog-text .stuff li:first-child {
+.projects .blog-text .stuff li:first-child {
   margin-left: 0;
 }
-.fh5co-blog .blog-text .stuff li:last-child {
+.projects .blog-text .stuff li:last-child {
   float: right;
 }
-.fh5co-blog .blog-text .stuff li:last-child a {
+.projects .blog-text .stuff li:last-child a {
   color: #000;
 }
-.fh5co-blog .blog-text .stuff li:last-child i {
+.projects .blog-text .stuff li:last-child i {
   padding-right: 0;
   padding-left: 10px;
 }
-.fh5co-blog .blog-text .stuff li i {
+.projects .blog-text .stuff li i {
   font-size: 22px;
   padding-right: 5px;
 }
-.fh5co-blog .blog-text h3 {
+.projects .blog-text h3 {
   font-size: 24px;
   margin-bottom: 20px;
   line-height: 1.5;
 }
-.fh5co-blog .blog-text h3 a {
+.projects .blog-text h3 a {
   color: black;
 }
 
